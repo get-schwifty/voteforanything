@@ -1,2 +1,2 @@
 # voteforanything
-first program from team
+first program from team, one of many
