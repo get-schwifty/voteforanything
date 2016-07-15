@@ -20,7 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var touchTopic: UILabel!
+    
     @IBAction func yesNo(sender: UISegmentedControl) {
+        touchTopic.text =  sender.titleForSegmentAtIndex(sender.selectedSegmentIndex)!
     }
 
     @IBAction func submit(sender: UIButton) {
